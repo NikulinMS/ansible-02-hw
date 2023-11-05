@@ -8,7 +8,7 @@
 
 #### 1. Подготовьте свой inventory-файл `prod.yml`.
 
-[prod.yml](src%2Fplaybook%2Finventory%2Fprod.yml)
+Подготовим [prod.yml](src%2Fplaybook%2Finventory%2Fprod.yml)
 
 #### 2. Допишите playbook: нужно сделать ещё один play, который устанавливает и настраивает [vector](https://vector.dev). Конфигурация vector должна деплоиться через template файл jinja2. От вас не требуется использовать все возможности шаблонизатора, просто вставьте стандартный конфиг в template файл. Информация по шаблонам по [ссылке](https://www.dmosk.ru/instruktions.php?object=ansible-nginx-install).
 
