@@ -141,4 +141,4 @@
         daemon_reload: true
         enabled: false
         name: vector.service
-        state: started
+        state: restarted

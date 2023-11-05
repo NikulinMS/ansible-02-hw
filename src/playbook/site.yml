@@ -16,7 +16,7 @@
         daemon_reload: true
         enabled: false
         name: vector.service
-        state: started
+        state: restarted
 
   tasks:
     - name: Install, configure, and start Clickhouse
